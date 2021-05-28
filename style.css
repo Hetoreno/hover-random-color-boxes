@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:20%;
+    margin: auto;
+}
+
+.box{
+    background: #1d1d1d;
+    height:1.1rem;
+    min-width:1rem;
+    margin:0.2rem;
+    transition: all 1s ease;
+}
+.box:hover{
+    transition-duration: 0s;
+}
